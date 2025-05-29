@@ -5,23 +5,23 @@ const ProjectCard = () => {
   const projects = [
     {
       id: 1,
-      title: 'Project One',
-      description: 'A brief overview of the first project with an interesting challenge and solution.',
-      thumbnail: '/images/project1.jpg',
+      title: 'JavaScript Frameworks',
+      description: 'For my JavaScript Frameworks project, I designed and developed a fully responsive, user-friendly eCommerce web application using React.',
+      thumbnail: '/images/ecom-store.png',
       link: '/projects/1',
     },
     {
       id: 2,
-      title: 'Project Two',
-      description: 'Second project involves complex data handling and interactive UI components.',
-      thumbnail: '/images/project2.jpg',
+      title: 'Semester Project 2',
+      description: 'This project marks the culmination of knowledge and practical skills developed over the course of three semesters',
+      thumbnail: '/images/auction-house.png',
       link: '/projects/2',
     },
     {
       id: 3,
-      title: 'Project Three',
-      description: 'Final project demonstrates advanced React and Bootstrap integration.',
-      thumbnail: '/images/project3.jpg',
+      title: 'Exam Project 2',
+      description: 'Project Exam 2 represents the final milestone after two years of learning and development, by building an end-to-end application.',
+      thumbnail: '/images/holidaze.png',
       link: '/projects/3',
     },
   ];
