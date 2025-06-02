@@ -14,7 +14,7 @@ const ProjectPage = () => {
       imageCaption: 'Homepage of the eCom store application',
       liveUrl: 'https://delightful-cocada-88beec.netlify.app/',
       repoUrl: 'https://github.com/cecsun/js-frameworks-ca',
-      reflections: 'Learned about product filtering, React context, and Stripe integration.',
+      reflections: 'As part of the project refinement process, I standardized the tab size to 2 spaces for improved code readability and consistency. Additionally, I implemented JSDoc comments throughout the codebase to enhance documentation and maintainability. Revisiting the application allowed me to apply newly acquired skills in state management and component architecture, resulting in a more polished and professional final product.',
     },
     {
       id: '2',
@@ -24,7 +24,7 @@ const ProjectPage = () => {
       imageCaption: 'Homepage of the Auction House website',
       liveUrl: 'https://superb-douhua-db3bf4.netlify.app/',
       repoUrl: 'https://github.com/cecsun/semester-project-2',
-      reflections: 'Focused on mobile-first design, accessibility, and clear content structure.',
+      reflections: 'After receiving feedback, I made several improvements to this project, including moving live-server to devDependencies, switching to a Bootstrap CDN for better deployment compatibility, adding HTML form validation, and removing alert messages for a cleaner user experience. Revisiting the project gave me the chance to apply new skills and polish the final version, making it more reliable, user-friendly, and ready for real-world use.',
     },
     {
       id: '3',
@@ -34,7 +34,7 @@ const ProjectPage = () => {
       imageCaption: 'Homepage of the accommodation booking site, Holidaze',
       liveUrl: 'https://papaya-mochi-35ab8e.netlify.app/',
       repoUrl: 'https://github.com/cecsun/project-exam-2',
-      reflections: 'Improved my knowledgke of routing, user auth, and CRUD operations.',
+      reflections: 'This project hasn’t been graded yet, so no improvements have been made at this stage. However, I’m proud of how I planned, built, and deployed Holidaze — a complete accommodation booking site developed with React. It showcases my ability to handle complex functionality like user roles, bookings, and venue management, while also focusing on responsive design and user experience. I look forward to applying feedback once it has been received to further polish the project.',
     },
   ];
 
