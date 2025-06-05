@@ -4,21 +4,21 @@ import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
-    <Navbar bg="light" expand="lg" className="shadow-sm">
+    <Navbar expand="lg" className="bg-dark shadow-sm">
       <Container>
         <Navbar.Brand as={Link} to="/">My Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link
-              href="https://www.linkedin.com/in/your-username"
+              href="https://linkedin.com/in/cecilie-sunde"
               target="_blank"
               rel="noopener noreferrer"
             >
               LinkedIn
             </Nav.Link>
             <Nav.Link
-              href="https://github.com/your-username"
+              href="https://github.com/cecsun"
               target="_blank"
               rel="noopener noreferrer"
             >
