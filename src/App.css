@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 html, body, #root {
   height: 100%;
   margin: 0;
@@ -10,4 +13,52 @@ html, body, #root {
   overflow: hidden;
 }
 
+.navbar-brand{
+  color: white !important;
+  font-size: 1.75rem !important;
+  font-family: 'Playfair Display', serif !important;
+}
 
+.nav-link {
+  color: white !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  opacity: 0.8 !important;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+p, li, a {
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-title {
+  font-weight: 400 !important;
+}
+
+h2, h3, h4 {
+  font-size: 1.75rem !important;
+}
+
+.navbar-toggler {
+  background-color: white !important;
+}
+
+.copy-link-button {
+  border: none !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 1rem !important;
+}
+
+.copy-link-button:hover {
+  opacity: 0.8 !important;
+}
+
+.no-wrap-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
