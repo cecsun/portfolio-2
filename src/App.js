@@ -1,8 +1,8 @@
-// src/App.js
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ProjectCard from './components/ProjectCard';
 import ProjectPage from './pages/ProjectPage';
 import Layout from './components/Layout';
+import RouteNotFound from './pages/RouteNotFound';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<ProjectCard />} />
           <Route path="/projects/:id" element={<ProjectPage />} />
+          <Route path="*" element={<RouteNotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>
