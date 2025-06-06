@@ -48,14 +48,6 @@ const ProjectPage = () => {
     navigator.clipboard.writeText(window.location.href);
   };
 
-  if (!project) {
-    return (
-      <Container className="py-5">
-        <p>Project Not Found</p>
-      </Container>
-    );
-  }
-
   return (
     <Container className="py-5">
     <Row className="align-items-center mb-3">

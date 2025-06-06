@@ -1,4 +1,3 @@
-// src/components/Footer.jsx
 import { Container, Row, Col } from 'react-bootstrap';
 
 export function Footer() {
